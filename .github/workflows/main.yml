@@ -1,13 +1,12 @@
 name: Shivam
-
-on: 
+on:
   push:
-    branches: [ main ]
-
-jobs: 
+    branches:
+      - main
+jobs:
   demo:
     runs-on: ubuntu-latest
-
-    steps: 
+    steps:
       - name: Greetings!
-       run: echo "Helo from Shivam"
+        run: echo "Helo from Shivam"
+
